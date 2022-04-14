@@ -1,2 +1,2 @@
 # STUDY-IT
-a learning platform where each tutor can describe his course using ready-made tools, set his price and also enable the maintenance of his product students can choose courses in any of the directions existing on the platform our platform is distinguished by a high-quality price policy, user-friendly interface and high-quality moderation
+Sudy-IT это учебная платформа позволяющая как проходить курсы, так и записывать свои. Любой человек желающий поделится своими знаниями может записать курс на Study-IT и продавать его.
