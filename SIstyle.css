@@ -1,0 +1,86 @@
+body {
+  position: absolute;
+  width: 1440px;
+  height: 814px;
+  left: 1px;
+  background: #DFE6FF;
+}
+
+/* logo main page  */
+.logo {
+position: absolute;
+width: 170px;
+height: 116px;
+left: 635px;
+top: 148.55px;
+}
+
+/* man main page*/
+.man {
+position: absolute;
+width: 370px;
+height: 516px;
+left: 1305px;
+top: 298px;
+
+background: url(1_with_coffee_man_3.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* woman main page */
+
+.woman {
+position: absolute;
+width: 369px;
+height: 529px;
+left: 136px;
+top: 307px;
+}
+
+/* Main menu */
+
+.main_menu {
+position: absolute;
+width: 64px;
+height: 16px;
+left: 542.92px;
+top: 48px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600px;
+font-size: 16px;
+line-height: 100%;
+border-radius: 10px;
+padding-top: 2px;
+padding-bottom: 3px;
+padding-left: 7.92px;
+padding-right: 8.08px;
+background: #C3D0FF;
+
+/* identical to box height, or 16px */
+color: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+
+/* Курсы хызы как на английском */
+
+.kurs {
+position: absolute;
+width: 56.57px;
+height: 16px;
+left: 649.28px;
+top: 48px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+
+/* identical to box height, or 16px */
+
+color: #7189FF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
