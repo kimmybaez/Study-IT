@@ -1,0 +1,21 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+
+
+
+
+body>:nth-child(1) {
+    background-color: #DFE6FF;
+    height: 814px;
+    grid-column: 1 / 13;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    gap: 30px;
+
+    width: 1140px;
+    margin: 0 auto;
+}
