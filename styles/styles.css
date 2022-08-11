@@ -1,21 +1,136 @@
-@import url(normalize.css);
-@import url(header.css);
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url(normalize.css);
 
-
-
-
-body>:nth-child(1) {
+.section_blue {
     background-color: #DFE6FF;
-    height: 814px;
-    grid-column: 1 / 13;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(12, 70px);
-    gap: 30px;
+.header {
+    padding-top: 25px;
+    height: 100px;
+}
 
-    width: 1140px;
-    margin: 0 auto;
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.menu__item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #7189FF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu__link {
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.menu__link:hover {
+    color: #002BFF;
+}
+
+.active {
+    width: 80px;
+    height: 20px;
+    background: #C3D0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    padding: 2px 8px;
+}
+
+.tittle {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+    /* or 70px */
+
+    text-align: center;
+
+    /* light */
+
+    color: #FDFDFD;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    text-align: center;
+
+    /* light */
+
+    color: #FDFDFD;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    width: 170px;
+    height: 55px;
+
+    background-color: #0d6efd;
+    border-radius: 20px;
+
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.btn__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    /* light */
+
+    color: #FDFDFD;
+}
+
+
+.imgs {
+    position: relative;
+}
+.woman {
+    position: absolute;
+    right: 0;
+}
+
+.section {
+    margin-top: 45px;
+}
+
+.description_big {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #7189FF;
+
+    margin-top: 135px;
 }
