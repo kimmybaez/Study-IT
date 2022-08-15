@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url(normalize.css);
+
+body {
+height: 814px;
+background: #DFE6FF;
+}
+
+ /* хеадер лол*/
+.header {
+  padding-top: 25px;
+  height: 100px;
+}
+
+/* меню главная/премиум/вход*/
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.menu__item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 48px;
+    height: 16px;
+}
+
+
+.menu__link {
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.menu__link:hover {
+    color: #002BFF;
+}
+
+/* Кнопка курс */
+.kurs {
+    width: 51px;
+    height: 16px;
+    background: #C3D0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 82px;
+    height: 21px;
+    padding: 2px 15px;
+}
+
+/* хызы чё это но пусть будет */
+.tittle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+    /* or 70px */
+
+    text-align: center;
+
+    /* light */
+
+    color: #FDFDFD;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* логотип компании слева в верхнем углу */
+ .logo {
+  margin-right: 235px;
+  margin-top: 20px;
+ }
+
+/* кнопка сортировка курсов, ImgFilter,ImgFilter2и т.д. тоже часть фильтра*/
+ .Filter {
+margin-left: 910px;
+margin-top: 117px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+
+/* or 16px */
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #7189FF;
+
+background: #DFE8FF;
+box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding-right: 70px;
+padding-left: 15px;
+padding-top: 9px;
+padding-bottom: 9px;
+width: 180px;
+height: 50px;
+ }
+
+ .ImgFilter {
+width: 9px;
+height: 4px;
+
+background: #7189FF;
+border-radius: 5px;
+margin-left: 119px;
+margin-top: -32px;
+ }
+
+.ImgFilter2 {
+  width: 8px;
+  height: 8px;
+  margin-left: 130px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 4px;
+}
+
+.ImgFilter3 {
+  width: 21px;
+  height: 4px;
+  margin-left: 139px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 5px;
+}
+
+.ImgFilter4 {
+  width: 24px;
+  height: 4px;
+  margin-left: 119px;
+  margin-top: 10px;
+
+  background: #7189FF;
+  border-radius: 5px;
+}
+
+.ImgFilter5 {
+  width: 8px;
+  height: 8px;
+  margin-left: 145px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 4px;
+}
+
+.ImgFilter6 {
+  width: 7px;
+  height: 4px;
+  margin-left: 155px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 5px;
+}
+
+.ImgFilter7 {
+  width: 15px;
+  height: 4px;
+  margin-left: 119px;
+  margin-top: 10px;
+
+  background: #7189FF;
+  border-radius: 5px;
+}
+
+.ImgFilter8 {
+  width: 8px;
+  height: 8px;
+  margin-left: 136px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 4px;
+}
+
+.ImgFilter9 {
+  width: 15px;
+  height: 4px;
+  margin-left: 147px;
+  margin-top: -6px;
+
+  background: #7189FF;
+  border-radius: 5px;
+}
+
+/* Основная часть */
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  height: 248px;
+  width: 800px;
+  background: #DFE6FF;
+}
+
+/* Назваие курса */
+.NameKurs {
+   padding-left: 635px;
+   margin-top: 209px;
+   height: 248px;
+   width: 970px;
+   margin-left: 235px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 100%;
+   padding-top: 12px;
+   padding-left: 400px;
+   padding-bottom: 218px;
+   background: #DFE6FF;
+   box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+}
+
+/* Краткое описание курса */
+.shortOpisanie {
+  padding-top:  17px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #353A5A;
+
+/* identical to box height, or 18px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+/* Автор курса */
+.Creater {
+  padding-bottom: 26px;
+  padding-top: 26px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+
+/* identical to box height, or 15px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #727272;
+}
+
+/* Количнство курсов */
+.NumberOfCourses {
+padding-bottom: 71px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 100%;
+/* or 15px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #727272;
+}
+
+/* Цена курса */
+.Forsale {
+margin-left: 430px;
+margin-bottom: -13px;
+margin-top: -12px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 100%;
+
+/* identical to box height, or 25px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #7189FF
+}
+
+/* Иконка курсов, тот рыцарь хыы*/
+.ImgKurs {
+width: 358px;
+height: 224px;
+margin-left: -385px;
+margin-top: -210px;
+}
+
+/* Кнопка "Избранный" */
+.heart1 {
+  width: 50px;
+  height: 50px;
+  margin-left:  1143px;
+  margin-top:  -450px;
+}
+
+/* Главная звездочка, рейтинг*/
+.Lider {
+  margin-left: 30px;
+}
+
+/* рейтинг */
+.star1 {
+  margin-top: -12px;
+  margin-right: 8.52px;
+  width: 33.14px;
+  height: 31.93px;
+}
