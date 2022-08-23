@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url(normalize.css);
+
+body {
+height: 1955px;
+}
+
+ /* хеадер лол*/
+header {
+  padding-top: 25px;
+}
+
+/* меню главная/премиум/вход*/
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.menu__item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 48px;
+    height: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.menu__link {
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.menu__link:hover {
+    color: #002BFF;
+}
+
+/* лого */
+.logo {
+ margin-right: 234px;
+ margin-top: 20px;
+}
+
+/*Название курса */
+.NameKurs {
+margin-left: 34px;
+margin-top: 143px;
+width: 1170px;
+height: 70px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 58px;
+line-height: 120%;
+/* identical to box height, or 70px */
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+/* dark */
+color: #353A5A;
+}
+
+/* краткое описание*/
+.ShortOpisanie {
+width: 770px;
+height: 58px;
+margin-left: 34px;
+margin-top: 51px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 130%;
+/* or 29px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #353A5A;
+}
+
+/* Полное описание курса*/
+.MAinOpisanie {
+width: 770px;
+height: 270px;
+margin-left: 34px;
+margin-top: 51px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #353A5A;
+}
+
+/* Картинка курса*/
+.ImgKurs{
+  margin-left: 830px;
+  margin-top: -400px;
+}
+
+/*Кнопка "Посмотреть пробное задание" */
+.TestKurs{
+margin-top: 45px;
+margin-left: 335px;
+height: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #000000;
+
+background: #DFE6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+height: 28px;
+padding-top: 4px;
+padding-bottom: 4px;
+width: 368px;
+}
+
+/* Видео ролик курса */
+.YT {
+width: 770px;
+height: 433px;
+margin-left: 149px;
+margin-top: 24px;
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+/*список */
+.grid *{
+background: #DFE6FF;
+border-radius: 10px;
+width: 770px;
+height: 58px;
+margin-left: 149px;
+}
+
+/* список видео */
+.videoKurs {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+/* dark */
+color: #353A5A;
+}
+
+/* Количество курсов + время */
+.Main_Chek {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+font-feature-settings: 'pnum' on, 'lnum' on;
+/* dark */
+color: #353A5A;
+}
+
+/* Желательеый курса ака добавить в избранное*/
+.desired_course {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #7189FF;
+  margin-left: 930px;
+  margin-top: -830px;
+  background: #DFE8FF;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 370px;
+  height: 50px;
+}
+
+/* Приобрести курс*/
+.ByeKurs {
+margin-left: 930px;
+margin-top:  21px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #7189FF;
+background: #DFE8FF;
+box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 370px;
+height: 50px;
+}
+
+/*Цена курса */
+.Price {
+  padding-left: 300px;
+  margin-top: -18px;
+}
+
+/* Рейтинг курса */
+.RatingKurs {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+width: 200px;
+height: 20px;
+/* identical to box height, or 20px */
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #7189FF;
+margin-left: 1020px;
+margin-top: 39px;
+}
+
+/* звёзды*/
+.Star {
+width: 33.14px;
+height: 31.93px;
+margin-top: 9px;
+margin-left: 1019px;
+}
+
+.Star2 {
+width: 33.14px;
+height: 31.93px;
+margin-top: -57px;
+margin-left: 1060px;
+}
+
+.Star3 {
+width: 33.14px;
+height: 31.93px;
+margin-top: -98px;
+margin-left: 1102px;
+}
+
+.Star4 {
+width: 33.14px;
+height: 31.93px;
+margin-top: -140px;
+margin-left: 1143px;
+}
+
+.Star5 {
+width: 33.14px;
+height: 31.93px;
+margin-top: -183px;
+margin-left: 1185px;
+}
+
+ /* Аватара автора курса*/
+.ImgAvtar {
+  margin-left: 995px;
+  margin-top: -32px;
+  border-radius: 10px;
+  border: 2px solid  #7189FF;
+}
+
+/* Ссылка на автора курса*/
+.Avtor {
+margin-top: 23px;
+margin-left: 982px;
+font-family: 'Raleway';
+font-style: normal;
+width: 270px;
+height: 16px;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+text-align: center;
+color: #000000;
+}
