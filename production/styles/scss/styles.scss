@@ -25,7 +25,7 @@ body {
             width: 540px;
         }
     }
-    @media (max-width: 575px) {
+    @media (min-width: 575px) {
         .wrapper {
             width: 100%;
         }
