@@ -25,6 +25,9 @@ body {
   body .wrapper {
     width: 100%;
   }
+  body .header__wrapper {
+    width: 100%;
+  }
 }
 
 .wrapper {
