@@ -22,11 +22,6 @@ body {
     }
     @media (max-width: 576px) {
         .wrapper {
-            width: 540px;
-        }
-    }
-    @media (min-width: 575px) {
-        .wrapper {
             width: 100%;
         }
     }

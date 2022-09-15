@@ -23,11 +23,6 @@ body {
 }
 @media (max-width: 576px) {
   body .wrapper {
-    width: 540px;
-  }
-}
-@media (min-width: 575px) {
-  body .wrapper {
     width: 100%;
   }
 }
